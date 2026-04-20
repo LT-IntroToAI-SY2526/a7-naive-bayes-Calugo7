@@ -175,4 +175,5 @@ if __name__ == "__main__":
     print(b.classify("I love this movie"))
     print(b.classify("this is terrible"))
     print(b.classify("Great movie"))
-
+    print(b.classify("I love python!")) # should print positive
+    print(b.classify("I hate python!")) # should print negative
